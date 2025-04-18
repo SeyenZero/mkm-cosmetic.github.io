@@ -53,6 +53,7 @@ header {
     margin: 0 auto;
 }
 
+
 .benefits-section {
     background-color: #f9f4f0;
     padding: 40px 0; /* Más compacto */
@@ -330,3 +331,4 @@ a {
     text-decoration: none;
     color: white;
 }
+

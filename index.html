@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MKM Cosmetic</title>
+        <title>MKM Cosmetics</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
@@ -38,10 +38,10 @@
         <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><a href="#"><img src="6.webp" alt=""></a></div>
-                <div class="swiper-slide"><a href="pocion.html"><img src="7.webp" alt=""></a></div>
                 <div class="swiper-slide"><a href="ritual-botanico.html"><img src="8.webp" alt=""></a></div>
-                <div class="swiper-slide"><a href="#"><img src="9.webp" alt=""></a></div>
+                <div class="swiper-slide"><a href="milagros.html"><img src="9.webp" alt=""></a></div>
+                <div class="swiper-slide"><a href="anyeluz.html"><img src="6.webp" alt=""></a></div>
+                <div class="swiper-slide"><a href="pocion.html"><img src="7.webp" alt=""></a></div>
                 <div class="swiper-slide"><a href="#"><img src="10.webp" alt=""></a></div>
             </div>
         <!-- If we need pagination -->
@@ -51,23 +51,219 @@
             <div class="swiper-button-next"></div>
         </div>
         <h3>NUESTRAS COLECCIONES</h3>
-        <!-- Slider main container -->
-        <div class="swiper">
-        <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><a href="#"><img src="6.webp" alt=""></a></div>
-                <div class="swiper-slide"><a href="#"><img src="7.webp" alt=""></a></div>
-                <div class="swiper-slide"><a href="#"><img src="8.webp" alt=""></a></div>
-                <div class="swiper-slide"><a href="#"><img src="9.webp" alt=""></a></div>
-                <div class="swiper-slide"><a href="#"><img src="10.webp" alt=""></a></div>
-            </div>
-        <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-        <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
+        <div id='collection-component-1745006465803'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'n8kgez-bm.myshopify.com',
+      storefrontAccessToken: '21af0ef1f10f0052d57feeccb59b5203',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '509892297018',
+        node: document.getElementById('collection-component-1745006465803'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px",
+          "width": "calc(25% - 20px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "font-family": "Montserrat, sans-serif"
+      },
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        ":hover": {
+          "background-color": "#448423"
+        },
+        "background-color": "#4c9327",
+        ":focus": {
+          "background-color": "#448423"
+        },
+        "border-radius": "27px",
+        "padding-left": "46px",
+        "padding-right": "46px"
+      },
+      "price": {
+        "font-family": "Montserrat, sans-serif",
+        "font-size": "18px"
+      },
+      "compareAt": {
+        "font-family": "Montserrat, sans-serif",
+        "font-size": "15.299999999999999px"
+      },
+      "unitPrice": {
+        "font-family": "Montserrat, sans-serif",
+        "font-size": "15.299999999999999px"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "Mas informacion"
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        ":hover": {
+          "background-color": "#448423"
+        },
+        "background-color": "#4c9327",
+        ":focus": {
+          "background-color": "#448423"
+        },
+        "border-radius": "27px",
+        "padding-left": "46px",
+        "padding-right": "46px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "34px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "26px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "22.099999999999998px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "22.099999999999998px",
+        "color": "#4c4c4c"
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ],
+    "text": {
+      "button": "Añadir al Carrito"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        ":hover": {
+          "background-color": "#448423"
+        },
+        "background-color": "#4c9327",
+        ":focus": {
+          "background-color": "#448423"
+        },
+        "border-radius": "27px"
+      }
+    },
+    "text": {
+      "title": "Carrito",
+      "total": "Subtotal",
+      "button": "Pagar"
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        "background-color": "#4c9327",
+        ":hover": {
+          "background-color": "#448423"
+        },
+        ":focus": {
+          "background-color": "#448423"
+        }
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
         
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="script.js"></script>
